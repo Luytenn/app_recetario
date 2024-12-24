@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.RecipeForFood" parent="android:Theme.Material.Light.NoActionBar">
+    </style>
+
+    <style name="Theme.RecipeForFood.Starting" parent="Theme.SplashScreen">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo_icon</item>
+        <item name="windowSplashScreenAnimationDuration">9000</item>
+        <item name="postSplashScreenTheme">@style/Theme.RecipeForFood</item>
+    </style>
+</resources>
