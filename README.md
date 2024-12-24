@@ -6,6 +6,7 @@
 ![mainScreen](https://github.com/Luytenn/uploadPhotos/blob/main/main_screen_recipe.png)
 ![detailScreen](https://github.com/Luytenn/uploadPhotos/blob/main/detail_screen_recipe.png)
 ![favoriteScreen](https://github.com/Luytenn/uploadPhotos/blob/main/favorites_screen_recipe.png)
+![Instrucciones](https://github.com/Luytenn/uploadPhotos/blob/main/instrucciones_recipe.png)
 
 
 # Build With
