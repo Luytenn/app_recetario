@@ -2,6 +2,7 @@
 
 package com.example.recipefood.ui.screen.details
 
+import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.Orientation
 import androidx.compose.foundation.gestures.scrollable
@@ -9,6 +10,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -65,6 +67,7 @@ fun RecipeDetails(navController: NavController, recipeDetails: RecipeDetails, is
         Column(
             modifier = Modifier
                 .scrollable(rememberScrollState(), Orientation.Horizontal)
+                .verticalScroll(rememberScrollState())
                 .weight(weight = 1f, fill = false)
                 .fillMaxSize()
         ) {

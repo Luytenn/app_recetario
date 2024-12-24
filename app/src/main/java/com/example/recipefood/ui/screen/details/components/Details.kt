@@ -62,7 +62,6 @@ fun DetailsHeader(recipeDetails: RecipeDetails) {
     val openDialog = remember { mutableStateOf(false) }
     if (openDialog.value) {
         AlertDialog(
-            modifier = Modifier.padding(20.dp),
             onDismissRequest = {
                 println("onDimissRequest clicked")
             openDialog.value = false },

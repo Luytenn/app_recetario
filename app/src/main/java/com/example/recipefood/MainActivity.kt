@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
         }
 
         setContent {
-            RecipeForFoodTheme(darkTheme = true) {
+            RecipeForFoodTheme(darkTheme = false) {
                 MainScreen() {  keepSplashScreen = false }
                 //SetupNavGraph(navController = navController, startDestination = screen)
             }
